@@ -1,0 +1,28 @@
+WEAT Test:  4
+targets:  Europäisch-amerikanische afro-amerikanische Namen
+attributes:  Angenehm unangenehm (aus (5))
+[(16, 1536), (16, 3072), (25, 3072), (25, 2304)]
+Top 5 most similar attribute words to Europäisch-amerikanische:, European-American
+	Unfall, Accident
+	Wunder, Wonder
+	Freiheit, Freedom
+	Himmel, Heaven
+	Mord, murder
+
+Top 5 most similar attribute words to afro-amerikanische Namen:, African American names
+	Freude, Joy
+	Freude, Joy
+	Diamant, diamond
+	Ehre, Honor
+	Dreck, dirt
+
+
+Calculating effect size.  The score is between +2.0 and -2.0.  
+Positive scores indicate that Europäisch-amerikanische is more associated with Angenehm than afro-amerikanische Namen.
+Or, equivalently, afro-amerikanische Namen is more associated with unangenehm (aus (5)) than Europäisch-amerikanische.
+Negative scores have the opposite relationship.
+Scores close to 0 indicate little to no effect.
+
+Effect size: 1.28
+
+Plotting similarity scores...

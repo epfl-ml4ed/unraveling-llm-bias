@@ -1,0 +1,28 @@
+WEAT Test:  2
+targets:  Instrumente Waffen
+attributes:  Angenehm Unangenehm
+[(25, 3072), (25, 3840), (25, 2304), (25, 2304)]
+Top 5 most similar attribute words to Instrumente:, instruments
+	Freude, Joy
+	Freude, Joy
+	Tragödie, tragedy
+	Sonnenaufgang, sunrise
+	Krebs, Cancer
+
+Top 5 most similar attribute words to Waffen:, weapons
+	Scheidung, divorce
+	Dreck, dirt
+	Kummer, grief
+	Freude, Joy
+	Freude, Joy
+
+
+Calculating effect size.  The score is between +2.0 and -2.0.  
+Positive scores indicate that Instrumente is more associated with Angenehm than Waffen.
+Or, equivalently, Waffen is more associated with Unangenehm than Instrumente.
+Negative scores have the opposite relationship.
+Scores close to 0 indicate little to no effect.
+
+Effect size: 0.30
+
+Plotting similarity scores...

@@ -1,0 +1,28 @@
+WEAT Test:  7
+targets:  Mathe Kunst
+attributes:  Männliche weibliche Begriffe
+[(8, 2304), (8, 2304), (5, 1536), (5, 2304)]
+Top 5 most similar attribute words to Mathe:, maths
+	Junge, Young
+	Sohn, Son
+	Bruder, Brother
+	männlich, masculine
+	Schwester, Sister
+
+Top 5 most similar attribute words to Kunst:, Art
+	Junge, Young
+	Bruder, Brother
+	Sohn, Son
+	Mann, Man
+	Tochter, Daughter
+
+
+Calculating effect size.  The score is between +2.0 and -2.0.  
+Positive scores indicate that Mathe is more associated with Männliche than Kunst.
+Or, equivalently, Kunst is more associated with weibliche Begriffe than Mathe.
+Negative scores have the opposite relationship.
+Scores close to 0 indicate little to no effect.
+
+Effect size: 0.27
+
+Plotting similarity scores...

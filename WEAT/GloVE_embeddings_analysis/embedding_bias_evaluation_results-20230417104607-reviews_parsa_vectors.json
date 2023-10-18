@@ -1,0 +1,15 @@
+{
+    "embeddings_model": "reviews_parsa_vectors.txt",
+    "weat": {
+        "test1": "No results possible: 'For at least one of the given lexicons all tokens are OOV.'",
+        "test2": "No results possible: 'For at least one of the given lexicons all tokens are OOV.'",
+        "test3": "No results possible: 'For at least one of the given lexicons all tokens are OOV.'",
+        "test4": "No results possible: 'For at least one of the given lexicons all tokens are OOV.'",
+        "test5": "No results possible: 'For at least one of the given lexicons all tokens are OOV.'",
+        "test6": "No results possible: 'For at least one of the given lexicons all tokens are OOV.'",
+        "test7": "No results possible: 'For at least one of the given lexicons all tokens are OOV.'",
+        "test8": "No results possible: 'For at least one of the given lexicons all tokens are OOV.'",
+        "test9": "No results possible: 'For at least one of the given lexicons all tokens are OOV.'",
+        "test10": "No results possible: 'For at least one of the given lexicons all tokens are OOV.'"
+    }
+}

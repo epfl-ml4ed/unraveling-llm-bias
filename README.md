@@ -11,26 +11,30 @@ In this paper, we investigate how bias transfers through an AI writing support p
 
 ## Group study
 
-- classroom study:
-  - `G0`: a University classroom setting receiving feedback from a traditional feature-based recommender system.
+- Classroom study (Recommender System Writing Support):
+  - `G0`: Real-world data from a Swiss-German university classroom setting, who received feedback from a traditional feature-based recommender system.
   
-- online prolific study:
-  - `G1`: a control group receiving no writing support.
-  - `G2`: receive suggestions from fine-tunedGPT-2.
-  - `G3`: receive suggestions from fine-tuned GPT-3.
-  - `G4`: receive suggestions from pre-trained GPT-3.5.
+- (Online) Prolific study (LLM Writing Support):
+  - `G1`: a control group who received no writing support.
+  - `G2`: received suggestions from finetuned GPT-2.
+  - `G3`: received suggestions from finetuned GPT-3.
+  - `G4`: received suggestions from pre-trained GPT-3.5.
 
 ## File Structure
 
-- `GenBit`: Genbit analysis algorithms and gender pairs in German.
-  scripts from [repo](https://github.com/BordiaS/language-model-bias)
+- `GenBit`: GenBit analysis algorithms and gender pairs in German. Scripts are used directly from the following [repo](https://github.com/BordiaS/language-model-bias).
 
-- `SEAT`
-  - `original en`: original seat test files in English.
-  sent-weat1.jsonl to sent-weat8b.jsonl files from [Fairpy](https://github.com/HrishikeshVish/Fairpy/tree/main/BiasDetection/data/weatStereotypes/gender). The documents were orginally translated with DeepL, then manually checked by two native German speakers.
-  - `translated de`: traslated seat test files in German (Translated with DeepL and manually examined and corrected by two German native speakers).
+- `SEAT`: SEAT test files, consisting of:
+  - `english`: original SEAT test files in English.
+  sent-weat1.jsonl to sent-weat8b.jsonl files from [FairPy](https://github.com/HrishikeshVish/Fairpy/tree/main/BiasDetection/data/weatStereotypes/gender). 
+  - `german`: traslated SEAT test files in German (Translated with DeepL and manually examined and corrected by two German native speakers).
 
-- `WEAT`: WEAT test results.
+- `WEAT`: WEAT test results, consisiting of:
+  - `finetuned_GPT_results`: results for each of 9 WEAT tests from the finetuned GPT 2 embeddings.
+  - `GLOVE_embeddings_analysis`: results of training a GloVE model for each group.
+  - `weat_cooccurence_analysis`: results of conducting a WEAT cooccurence analysis on the raw files for each group.
+  The code used for this analysis is detailed in the COLING 2022 paper, ["Bias at a Second Glance: A Deep Dive into Bias for German Educational Peer-Review Data Modeling"](https://arxiv.org/pdf/2209.10335.pdf) and the [corresponding repository](https://github.com/epfl-ml4ed/bias-at-a-second-glance). 
+
 
 - `dataset`: anonymized reviews of Group 0 (classroom study), reviews, suggestions and demographics data for Group 1 to Group 4 (online prolific study).
 
@@ -41,7 +45,7 @@ In this paper, we investigate how bias transfers through an AI writing support p
   - `G2_G3_G4_Suggestions.csv`: GPT version and suggestions of G2-G4.
   - [Business Model description in German](https://www.youtube.com/watch?v=S_kLT2sXp_M)
     
-- `notebooks`: code for data cleaning, Genbit bias analysis and visualization.
+- `notebooks`: Code for data cleaning, GenBit bias analysis and visualization.
 
 ## Contributing 
 

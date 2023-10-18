@@ -58,7 +58,7 @@ If you find any bugs or would like to contribute new models, analyses, etc, plea
 If you find this code useful in your work, please cite our paper:
 
 ```
-Wambsganss T., Su X., Swamy V., Neshaei S., Rietsche R., Käser T. (2023). 
+Wambsganss T., Su X., Swamy V., Neshaei S. P., Rietsche R., Käser T. (2023). 
 Unraveling Downstream Gender Bias from Large Language Models: A Study on AI Educational Writing Assistance.
 In: Findings of the Association for Computational Linguistics (EMNLP 2023). 
 ```

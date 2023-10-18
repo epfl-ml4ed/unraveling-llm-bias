@@ -1,5 +1,5 @@
 # Unraveling Downstream Gender Bias from Large Language Models: A Study on AI Educational Writing Assistance
-Downstream bias analysis (WEAT, SEAT, GenBit) for real-time educational writing support using LLMs. Published at EMNLP Findings 2023.
+This repository is the official implementation of the EMNLP Findings 2023 entitled "Unraveling Downstream Gender Bias from Large Language Models: A Study on AI Educational Writing Assistance".
 
 ## Project Overview
 
@@ -39,6 +39,11 @@ In this paper, we investigate how bias transfers through an AI writing support p
   - `G1_G2_G3_G4_by_user_reviews_suggestions.csv`: reviews, all received suggestions and suggestions accepted by participants of G1-G4.
   - `G1_G2_G3_G4_demographics.csv`: anonymized demographics data of G1-G4.
   - `G2_G3_G4_Suggestions.csv`: GPT version and suggestions of G2-G4.
+ 
+## License
+This code is free software: you can redistribute it and/or modify it under the terms of the [MIT License](LICENSE).
+
+This software is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. See the [MIT License](LICENSE) for details.
 
 - `notebooks`: code for data cleaning, Genbit bias analysis and visualization.
 

@@ -1,5 +1,5 @@
 # Unraveling Downstream Gender Bias from Large Language Models: A Study on AI Educational Writing Assistance
-This repository is the official implementation of the EMNLP Findings 2023 publication entitled ["Unraveling Downstream Gender Bias from Large Language Models: A Study on AI Educational Writing Assistance"](https://openreview.net/forum?id=Mte6BK69zv) written by Thiemo Wambsganss*, Xiaotian Su*, Vinitra Swamy, Seyed Parsa Neshaei, Roman Rietsche, and Tanja Käser.
+This repository is the official implementation of the EMNLP Findings 2023 publication entitled ["Unraveling Downstream Gender Bias from Large Language Models: A Study on AI Educational Writing Assistance"](https://arxiv.org/abs/2311.03311) written by Thiemo Wambsganss*, Xiaotian Su*, Vinitra Swamy, Seyed Parsa Neshaei, Roman Rietsche, and Tanja Käser.
 
 ## Project Overview
 

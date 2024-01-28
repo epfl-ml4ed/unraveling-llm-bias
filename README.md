@@ -47,6 +47,8 @@ In this paper, we investigate how bias transfers through an AI writing support p
     
 - `notebooks`: Code for data cleaning, GenBit bias analysis and visualization.
 
+The fine-tuned model is available [here](https://huggingface.co/Su961/GermanGPT-2) on HuggingFace. 
+
 ## Contributing 
 
 This code is provided for educational purposes and aims to facilitate reproduction of our results, and further research 
